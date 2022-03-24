@@ -13,6 +13,6 @@ RGBQUAD RectCapture(int x, int y, int w, int h);
 ```C
 // To get the monitor resolution you
 // can use windows function GetSystemMetrics
-int width = GetSystemMetrics(SM_CXSCREEN);
-int width = GetSystemMetrics(SM_CYSCREEN);
+int width  = GetSystemMetrics(SM_CXSCREEN);
+int height = GetSystemMetrics(SM_CYSCREEN);
 ```
